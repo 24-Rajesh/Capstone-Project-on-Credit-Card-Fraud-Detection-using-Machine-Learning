@@ -20,9 +20,12 @@ We will also be creating an “evaluate_model” function that will be used to g
 
 # These are the steps that will be carried out in this project:
 
-1-Data Sourcing
+1-Data Sourcing 
+
 2-Data Analysis
+
 3-Model Building
+
 4-Model Evaluation
 
 # Challenges Faced 
@@ -32,7 +35,7 @@ The challenge is to recognize fraudulent credit card transactions so that the cu
 Main challenges involved in credit card fraud detection are:
 
 -Enormous Data is processed every day and the model build must be fast enough to respond to the scam in time.
--mbalanced Data i.e most of the transactions (99.8%) are not fraudulent which makes it really hard for detecting the fraudulent ones
+-imbalanced Data i.e most of the transactions (99.8%) are not fraudulent which makes it really hard for detecting the fraudulent ones
 -Data availability as the data is mostly private.
 -Misclassified Data can be another major issue, as not every fraudulent transaction is caught and reported.
 -Adaptive techniques used against the model by the scammers.
